@@ -1,6 +1,7 @@
 #include	"sas.h"
 
 extern	int	idx;
+extern todos	todo[100];
 time_t now;
 struct tm deadline, deadline2;
 double seconds;

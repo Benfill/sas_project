@@ -15,9 +15,6 @@ typedef	struct {
 	char	title[50], description[100], status[10];
 }todos;
 
-//array of struct 
-todos	todo[100];
-
 //function swaps two structs
 void	swap(int i, int j);
 

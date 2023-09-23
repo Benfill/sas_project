@@ -1,6 +1,7 @@
 #include	"sas.h"
 
 extern int idx;
+extern todos	todo[100];
 
 /**
  * search_by_title

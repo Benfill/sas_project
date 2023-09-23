@@ -5,6 +5,7 @@
  */
 
 extern int idx;
+extern todos	todo[100];
 int	total = 0, complete = 0, incomplet = 0;
 
 void	completed()

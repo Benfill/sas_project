@@ -1,5 +1,7 @@
 #include	"sas.h"
 
+//array of struct 
+todos	todo[100];
 int idx = 0;
 
 /**

@@ -1,6 +1,7 @@
 #include	"sas.h"
 
-extern int idx;
+extern int		idx;
+extern todos	todo[100];
 
 /**
  * modif - function modifies a task by its id

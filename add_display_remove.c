@@ -1,6 +1,7 @@
 #include	"sas.h"
 
 extern int idx, total;
+extern todos	todo[100];
 
 /**
  * add_task - functions adds new tasks to the list
