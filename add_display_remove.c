@@ -75,7 +75,7 @@ void	display()
 {
 	printf("\e[1;1H\e[2J");
 	printf("+----+-----------------+----------------------+--------------+-------------+\n");
-	printf("| ID |    Nom de la tâche   |    Description    |  Date d'échéance |    Statut|\n");
+	printf("| ID |    Nom de la tâche   |    Description    |  Date d'échéance |     Statut|\n");
 	printf("+----+-----------------+----------------------+--------------+-------------+\n");
 	for (int i = 0; i < idx; i++)
 	{

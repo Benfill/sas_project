@@ -2,6 +2,7 @@
 
 //array of struct 
 todos	todo[100];
+// tasks counter
 int idx = 0;
 
 /**
@@ -43,7 +44,7 @@ int	main()
 	printf("\e[1;1H\e[2J");
 	while (1)
 	{
-		printf("\n\n\n\t\t\t\tBienvenue au Gestion de Tâches ToDo\n\n");
+		printf("\n\n\n\t\t\t\tWelcome to the ToDo Task Management\n\n");
 		printf("1. Add a new task\n");
 		printf("2. Add multiple new tasks\n");
 		printf("3. Display all tasks\n");
