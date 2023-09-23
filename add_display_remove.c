@@ -78,7 +78,7 @@ void	display()
 	printf("+----+-----------------+----------------------+--------------+-------------+\n");
 	for (int i = 0; i < idx; i++)
 	{
-		if (todo[i].id == - 1)
+		if (todo[i].id == -1)
 			continue;
 		printf("| %-2d | %-19s | %-20s | %02d/%02d/%04d | %-15s |\n", todo[i].id, todo[i].title, todo[i].description, todo[i].D_day, todo[i].D_month, todo[i].D_year, todo[i].status);
 	}
@@ -108,10 +108,11 @@ void	display_menu()
 			display();
 			break;
 		case 2:
-			//deadline_sort();
+			deadline_sorting();
+			display();
 			break;
 		case 3:
-			//deadline_3days();
+			deadline_3_days();
 			break;
 		case 4:
 			printf("\e[1;1H\e[2J");

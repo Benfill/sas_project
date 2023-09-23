@@ -18,6 +18,9 @@ typedef	struct {
 //array of struct 
 todos	todo[100];
 
+//function swaps two structs
+void	swap(int i, int j);
+
 //alpha sorting
 void	alpha_sort();
 
@@ -54,5 +57,11 @@ void	statistic_menu();
 
 //function prints the remaining days for each task
 void	remaining();
+
+//function sorts by deadline
+void	deadline_sorting();
+
+//function display tasks in 3 days or less
+void	deadline_3_days();
 
 #endif

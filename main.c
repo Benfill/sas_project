@@ -23,7 +23,7 @@ void	alpha_sort()
 	{
 		for (int j = 0; j < idx - i - 1; j++)
 		{
-			if (strcmp(todo[j].title, todo[j + 1].title) > 0)
+			if (strcasecmp(todo[j].title, todo[j + 1].title) > 0)
 				swap(j, j + 1);
 		}
 	}
@@ -55,7 +55,7 @@ int	main()
 		switch(choice)
 		{
 			case 1:
-				add_task(n);
+				add_task(1);
 				break;
 			case 2:
 				printf("Please enter how many tasks you want to add: ");
